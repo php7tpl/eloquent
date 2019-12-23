@@ -1,0 +1,47 @@
+{
+	"name": "tpl/eloquent",
+	"description": "Web application",
+	"keywords": [
+		"application",
+		"web"
+	],
+	"type": "project",
+	"minimum-stability": "stable",
+	"require": {
+		"php7extension/core": "dev-master",
+		"php7extension/yii": "dev-master",
+		"php7lab/domain": "dev-master",
+		"php7lab/eloquent": "dev-master",
+		"php7lab/legacy": "dev-master"
+	},
+	"config": {
+		"secure-http": false,
+		"process-timeout": 1800
+	},
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://asset-packagist.org"
+		},
+		{
+			"type": "git",
+			"url": "https://github.com/php7lab/domain.git"
+		},
+		{
+			"type": "git",
+			"url": "https://github.com/php7lab/eloquent.git"
+		},
+		{
+			"type": "git",
+			"url": "https://github.com/php7lab/legacy.git"
+		},
+		{
+			"type": "git",
+			"url": "https://github.com/php7extension/core.git"
+		},
+		{
+			"type": "git",
+			"url": "https://github.com/php7extension/yii.git"
+		}
+	]
+}
